@@ -1,0 +1,49 @@
+# 문제 제목: 영수증
+(https://www.acmicpc.net/problem/25304)
+
+## 문제 정보
+- **출처** : 백준
+- **난이도:** : 나한테는 어려움...
+
+## 문제설명
+영수증과 실제로 계산한 금액이 일치하는지 검사
+
+## 해결 과정
+해결과정이라기 보다는...계속 막혔다.
+" =+ a*b" 이 식은 기억이 났으나.... 리스트처럼 "actual = 0" 이걸 쓰리라곤.. 이해 못했다...
+만약 이걸 알았더라면....! 풀 수 있었던 것  같다...
+
+
+## 접근 방법
+for문과 slpit()로 접근
+
+##코드
+(실제 답안)
+total =  int(input())
+n =  int(input())
+
+actual = 0
+for i in range(n):
+  a,b = map(int, input().split())
+  actual =+ a*b
+
+if actual == total:
+  print("yes")
+else:
+  print ("no")
+
+
+
+내 답안 : 
+total =  int(input())
+n =  int(input())
+
+for i in range(n):
+a,b = map(int, input().split())
+
+if total> =+ a*b :
+    print("yes")
+elif :
+  total < =+ a*b:
+  print("no")
+
