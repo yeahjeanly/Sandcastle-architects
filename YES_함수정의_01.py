@@ -25,3 +25,12 @@ def favorate_bread(name, bread, amount):
 favorate_bread("재경", "소보로빵", 0)
 favorate_bread("진서", "피자빵", 1)
 favorate_bread("민주", "옥수수 식빵", 2)
+
+def upper_price(price):
+    return price * 1.3
+
+prices = [20, 32, 40, 55]
+
+for p in prices:
+    up = upper_price(p)
+    print(f"{up}은 30% 상한가된 값입니다.")
