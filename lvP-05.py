@@ -3,12 +3,16 @@
 # 입력값: 200
 # 출력값: 220
 
-# 내 답
+# 내 답(오답은 아님)
 # a=int(input())
 # if a+20<=255:
 #     print(a+20)
 # else:
 #     print(255)
 
+
+
+
+# 간결한 답(이게 되네?)
 a=int(input())
 print(a+20 if a+20<=255 else 255)
